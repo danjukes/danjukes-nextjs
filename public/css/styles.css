@@ -168,3 +168,23 @@ p{
 .right {
   float: right;
 }
+
+@media only screen and (max-width: 530px) {
+
+.story {
+  height: auto;
+  overflow: inherit;
+}  
+
+.story-wrapper, .story-img {
+    width: 100%;
+    float: none !important;
+    height: 300px;
+}
+
+.story p {
+    margin-bottom: 0;
+    padding: 20px 5%;
+}
+
+}

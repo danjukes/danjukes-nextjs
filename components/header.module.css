@@ -1,0 +1,32 @@
+.header{
+  text-align: center;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.4) 100%), url(/images/danjukes-sketching.jpg);
+  background-size: cover;
+  background-position: 0 0, center;
+  background-repeat: no-repeat;
+  -webkit-animation-name: img-load;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-timing-function: ease;
+}
+
+.hgroup {
+  margin-bottom: 1.5em;
+  color: #fff;
+  padding: 8.5em 0;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 8%);
+}
+
+.header_title {
+  font-family: 'Damion', cursive;
+  font-weight: 500;
+  font-size: 76px;
+  line-height: 1em;
+  letter-spacing: 0;
+}
+
+.header_subtitle {
+  font-size: 15.5px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  position: relative;
+}

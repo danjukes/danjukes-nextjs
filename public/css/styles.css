@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'proxima-nova';
+  src: url('../fonts/Proxima-Nova.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'proxima-nova-bold';
+  src: url('../fonts/Proxima-Nova-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: 'proxima-nova', arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.8;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #353535;
+}
+
+p{
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+}
+
+.g {
+	color: #124FE6;
+}
+
+.o,
+.e {
+	color: #D7422C;
+}
+
+.y {
+	color: #FF0000;
+}
+
+.o2 {
+	color: #FFB606;
+}
+
+.l {
+	color: #009655;
+}
+
+.story {
+  height: 400px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.story.travel {
+  background: #8ab4f7 !important;
+  color: #fff;
+}
+
+.story.patents {
+  background: #4D90F0;
+  color: #fff;
+}
+
+.story.mbd {
+  background: #009655;
+  color: #fff;
+}
+
+.story.snowforecast {
+  background: #FFB606;
+  color: #353535;
+}
+
+.story.dotnet {
+  background: #c6386d;
+  color: #fff;
+}
+
+.story.outside {
+  background: #282b2d;
+  color: #fff;
+}
+
+.story.travel .story-img {
+  background: #fff url(../images/travel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center !important;
+}
+
+.story.google .story-img {
+  background: url(../images/google.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story.patents .story-img {
+  background: url(../images/danjukes-puzzle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.story.mbd .story-img {
+  background: url(../images/bg-whatwedo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story.snowforecast .story-img {
+  background: url(../images/snowforecast.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story.dotnet .story-img {
+  background: url(../images/buildoff.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story.outside .story-img {
+  background: url(../images/danwengen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.story-img {
+  width: 50%;
+  height: 100%;
+  display: block;
+}
+
+.story-wrapper {
+  width: 50%;
+  display: table;
+  height: 100%;
+}
+
+.story-wrapper .story-content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.story.travel .story-content p {
+  margin: 0 5%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
